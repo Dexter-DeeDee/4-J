@@ -1,0 +1,206 @@
+    body {
+        background-color: #000000;
+        margin: 0px;
+        overflow: hidden;
+    }
+    
+    .wrapper {
+        width: 300px;
+        height: 600px;
+        position: relative;
+        float: left;
+        top: 100px;
+        left: 100px;
+    }
+    
+    .head {
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+    }
+    
+    .head img,
+    .body img {
+        width: 100%;
+    }
+    
+    .body {
+        width: 300px;
+        top: 95px;
+        position: absolute;
+    }
+    /* Animation*/
+    
+    @-webkit-keyframes head {
+        0% {
+            -webkit-transform: translate(2px, 1px) rotate(0deg);
+        }
+        10% {
+            -webkit-transform: translate(-1px, -2px) rotate(-9deg);
+        }
+        20% {
+            -webkit-transform: translate(-5px, 0px) rotate(1deg);
+        }
+        30% {
+            -webkit-transform: translate(0px, 5px) rotate(-9deg);
+        }
+        40% {
+            -webkit-transform: translate(1px, -1px) rotate(5deg);
+        }
+        50% {
+            -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+        }
+        60% {
+            -webkit-transform: translate(-3px, 1px) rotate(7deg);
+        }
+        70% {
+            -webkit-transform: translate(2px, 1px) rotate(-1deg);
+        }
+        80% {
+            -webkit-transform: translate(-1px, -1px) rotate(-4deg);
+        }
+        90% {
+            -webkit-transform: translate(2px, 2px) rotate(2deg);
+        }
+        100% {
+            -webkit-transform: translate(1px, -2px) rotate(-1deg);
+        }
+    }
+    
+    @-moz-keyframes head {
+        0% {
+            -moz-transform: translate(2px, 1px) rotate(0deg);
+        }
+        10% {
+            -moz-transform: translate(-1px, -2px) rotate(-9deg);
+        }
+        20% {
+            -moz-transform: translate(-5px, 0px) rotate(1deg);
+        }
+        30% {
+            -moz-transform: translate(0px, 5px) rotate(-9deg);
+        }
+        40% {
+            -moz-transform: translate(1px, -1px) rotate(5deg);
+        }
+        50% {
+            -moz-transform: translate(-1px, 2px) rotate(-1deg);
+        }
+        60% {
+            -moz-transform: translate(-3px, 1px) rotate(7deg);
+        }
+        70% {
+            -moz-transform: translate(2px, 1px) rotate(-1deg);
+        }
+        80% {
+            -moz-transform: translate(-1px, -1px) rotate(-4deg);
+        }
+        90% {
+            -moz-transform: translate(2px, 2px) rotate(2deg);
+        }
+        100% {
+            -moz-transform: translate(1px, -2px) rotate(-1deg);
+        }
+    }
+    
+    @-o-keyframes head {
+        0% {
+            -o-transform: translate(2px, 1px) rotate(0deg);
+        }
+        10% {
+            -o-transform: translate(-1px, -2px) rotate(-9deg);
+        }
+        20% {
+            -o-transform: translate(-5px, 0px) rotate(1deg);
+        }
+        30% {
+            -o-transform: translate(0px, 5px) rotate(-9deg);
+        }
+        40% {
+            -o-transform: translate(1px, -1px) rotate(5deg);
+        }
+        50% {
+            -o-transform: translate(-1px, 2px) rotate(-1deg);
+        }
+        60% {
+            -o-transform: translate(-3px, 1px) rotate(7deg);
+        }
+        70% {
+            -o-transform: translate(2px, 1px) rotate(-1deg);
+        }
+        80% {
+            -o-transform: translate(-1px, -1px) rotate(-4deg);
+        }
+        90% {
+            -o-transform: translate(2px, 2px) rotate(2deg);
+        }
+        100% {
+            -o-transform: translate(1px, -2px) rotate(-1deg);
+        }
+    }
+    
+    .head {
+        -webkit-animation-name: head;
+        -webkit-animation-duration: .9s;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-name: head;
+        -moz-animation-duration: .9s;
+        -moz-transform-origin: 50% 50%;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-timing-function: linear;
+        -o-animation-name: head;
+        -o-animation-duration: .9s;
+        -o-transform-origin: 50% 50%;
+        -o-animation-iteration-count: infinite;
+        -o-animation-timing-function: linear;
+        animation-name: head;
+        animation-duration: .9s;
+        transform-origin: 50% 50%;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    .shake {
+        display: inline-block
+    }
+    
+    .akshat .head {
+        margin-left: -70px;
+         top: -20px;
+    }
+    .akshat .head img{
+        height:150px;
+        width:150px;
+    }
+    
+    .kartik .head {
+        margin-left: -10px;
+        top: 40px;
+    }
+    .kartik .head img{
+        height:130px;
+        width:130px;
+    }
+    
+    
+    .shubhi .head {
+        top: 110px;
+        margin-left: -60px;
+        width: 80px;
+    }
+
+    .shubhi .head img{
+        height:100px;
+        width:100px;
+    }
+    
+    .pranjal .head {
+        margin-left: -99px;
+        width: 80px;
+        top: 20px;
+    }
+    
+    
